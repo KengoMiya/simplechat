@@ -6,7 +6,7 @@ import requests
 
 
 # 環境変数からFastAPIエンドポイントのURLを取得
-FASTAPI_ENDPOINT_URL = os.environ.get("FASTAPI_ENDPOINT_URL")
+FASTAPI_ENDPOINT_URL = os.environ.get("https://a89e-34-125-177-5.ngrok-free.app")
 
 def lambda_handler(event, context):
     try:
